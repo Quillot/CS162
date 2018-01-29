@@ -36,3 +36,13 @@ int main(void) {
 		}
 	}
 }
+
+// #5
+// Make a function that uses char pointer args 
+void numberFive(char* p) {
+	cout << p << endl;
+}
+
+for(int i = 0; i < sizeof(x) - 1; i++) {
+	numberFive(&x[i]);
+}
